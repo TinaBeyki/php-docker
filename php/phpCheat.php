@@ -417,7 +417,7 @@ function bar($x, $y)
         foo($x, $y, $z);
     };
 }
-
+//
 $bar = bar('A', 'B');
 $bar('C'); // Prints "A - B - C"
 
